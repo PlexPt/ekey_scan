@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_wel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="left"
+        android:padding="10dp"
+        android:text="欢迎"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="left"
+        android:padding="10dp"
+        android:text="服务状态：ok"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="left"
+        android:padding="10dp"
+        android:text="服务地址："
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/button_selector_blue"
+        android:text="设置服务器"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/exit" />
+
+    <Button
+        android:id="@+id/permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/button_selector_blue"
+        android:text="设置权限"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/exit" />
+
+    <Button
+        android:id="@+id/fuzu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/button_selector_blue"
+        android:text="设置辅助无障碍"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/exit" />
+
+        <Button
+            android:id="@+id/run"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/button_selector_blue"
+            android:text="启动大神界面"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/exit" />
+        <Button
+            android:id="@+id/run2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/button_selector_blue"
+            android:text="启动旧将军令界面"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/exit" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/button_bg_red"
+        android:text="退出"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent" />
+</LinearLayout>

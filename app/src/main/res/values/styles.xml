@@ -1,0 +1,45 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="item_divider_new_base">
+        <item name="android:background">#eeeeee</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+
+    </style>
+
+    <style name="LargeButton">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/button_blue_text_color_states</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/card_round_bg_ripple_14dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:layout_marginStart">34dp</item>
+        <item name="android:layout_marginEnd">34dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="LargeButtonBlue">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/card_bg_blue_ripple_90dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:layout_marginStart">34dp</item>
+        <item name="android:layout_marginEnd">34dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+</resources>

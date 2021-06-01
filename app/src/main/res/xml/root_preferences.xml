@@ -1,0 +1,42 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <PreferenceCategory app:title="设置">
+        <ListPreference
+            app:defaultValue="中"
+            app:entries="@array/reply_values"
+            app:entryValues="@array/reply_values"
+            app:key="size"
+            app:title="字号"
+            app:useSimpleSummaryProvider="true" />
+
+
+        <SwitchPreferenceCompat
+            app:key="vab"
+            app:title="振动" />
+        <SwitchPreferenceCompat
+            app:key="music"
+            app:title="音乐" />
+
+
+    </PreferenceCategory>
+    <!--    -->
+    <!--    <PreferenceCategory app:title="@string/messages_header">-->
+
+    <!--        <EditTextPreference-->
+    <!--            app:key="signature"-->
+    <!--            app:title="@string/signature_title"-->
+    <!--            app:useSimpleSummaryProvider="true" />-->
+
+    <!--        <ListPreference-->
+    <!--            app:defaultValue="reply"-->
+    <!--            app:entries="@array/reply_entries"-->
+    <!--            app:entryValues="@array/reply_values"-->
+    <!--            app:key="reply"-->
+    <!--            app:title="@string/reply_title"-->
+    <!--            app:useSimpleSummaryProvider="true" />-->
+
+    <!--    </PreferenceCategory>-->
+
+
+</PreferenceScreen>

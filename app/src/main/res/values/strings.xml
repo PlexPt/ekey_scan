@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">将军令识别系统</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">首页</string>
+    <string name="title_dashboard">角度</string>
+    <string name="title_notifications">我的</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="accessibility_service_description">将军令识别系统</string>
+
+</resources>
