@@ -11,3 +11,6 @@
 
 
 ![shot](doc/shot.png)
+
+参考
+https://github.com/xuyisheng/AccessibilityUtil
